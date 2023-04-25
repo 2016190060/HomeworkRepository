@@ -1,0 +1,50 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(49, 49, 199);
+}
+.navbar{
+    margin: 7px;
+}
+.signup{
+    background-color: rgb(163, 196, 224);
+    text-align: center;
+    padding: 10px;
+    border: 2px solid;
+    width: 150px;
+    height: 50px;
+    margin: 7px;
+}
+.submit{
+    background-color: rgb(163, 196, 224);
+    text-align: center;
+    padding: 10px;
+    border: 2px solid;
+    width: 150px;
+    height: 50px;
+    margin: 7px;
+}
+
+h1.header{
+    position: relative;
+    animation: linear;
+    animation-name: totheleft;
+    animation-duration: 2s;
+}
+
+@keyframes totheleft run {
+    0% {-webkit-right}
+    50% {-webkit-right}
+    100% {-webkit-right}
+}
+
+nav.navflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.rings{
+    width: 100px;
+}

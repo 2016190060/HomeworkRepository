@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" type = "text/css" href="main.css">
+    
+</head>
+<body>
+    <h1>Welcome to Online Bookstore</h1>
+    <div class="navbar">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Log In</a>
+        <a href="signup.html">Sign Up</a>
+    </nav>
+    </div>
+    <form method = "post" action="http://www.example.com">
+        <p><label>Name
+            <input name = "name" type="text" autocomplete>
+        </label></p>
+        <p><label>Age
+            <input type="number" name="number" min="10" max="100" step = "1" value="20">
+        </label></p>
+        <p><label>Email
+            <input type="email" name="email" autofocus>
+        </label></p>
+        <p><label>Password
+            <input name = "password" type="password" required>
+        </label></p>
+        <p><label>Phone number
+            <input name = "phone" type="tel" placeholder = "010-1234-5678">
+        </label></p>
+        <p>Which genres do you enjoy reading?<br>
+                <input type="checkbox">
+                <label>Nonfiction</label>
+
+                <input type="checkbox">
+                <label>Science Fiction</label>
+
+                <input type="checkbox">
+                <label>Fantasy</label>
+
+                <input type="checkbox">
+                <label>Mystery</label>
+
+                <input type="checkbox">
+                <label>Other</label>
+        </p>
+        <p>Would you like to receive a weekly newsletter in your inbox?<br>
+            <input type="radio" id="option1" name="option">
+            <label for="option1">Yes</label>
+            <input type="radio" id="option2" name="option">
+            <label for="option2">No</label>
+        </p>
+        <input type="submit" value="Make an account" class="signup">
+    </form>
+</body>
+</html>
